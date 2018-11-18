@@ -17,7 +17,6 @@ router.post("/api/burgers", function(req, res) {
 		if (err) {
 			throw err;
 		}
-		console.log("hitting post route")
 		res.redirect("/");
 	});
 });
